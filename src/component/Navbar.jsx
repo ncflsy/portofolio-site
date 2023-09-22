@@ -19,9 +19,9 @@ const Navbar = () => {
   return (
     <>
       <header>
-        <nav className='flex max-w-[1200px] py-4 mx-auto p-4'>
+        <nav className='flex max-w-[1200px] py-4 mx-auto p-4 bg-darkgrey'>
           <div>
-            <p>ncflsy</p>
+            <p className='text-white font-bold'>ncflsy</p>
           </div>
           <div className='ms-auto flex'>
             
@@ -38,12 +38,14 @@ const Navbar = () => {
                   className='ms-auto mx-4'
                   size={25}
                   onClick={toggleSwitch}
+                  color='grey'
                 />
               ) : (
                 <FaToggleOff
                   className='ms-auto mx-4'
                   size={25}
                   onClick={toggleSwitch}
+                  color='grey'
                 />
               )}
             </div>
@@ -54,12 +56,14 @@ const Navbar = () => {
               size={25}
               onClick={toggleMenu}
               className={isMenuOpen ? 'hidden' : ''}
+              color='white'
             />
             <FaWindowClose
               id='close-bar'
               size={25}
               onClick={toggleMenu}
               className={!isMenuOpen ? 'hidden' : ''}
+              color='white'
             />
           </div>
         </nav>
