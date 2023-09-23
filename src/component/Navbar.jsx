@@ -18,14 +18,14 @@ const Navbar = () => {
 
   return (
     <>
-      <header>
+      <header className='bg-darkgrey'>
         <nav className='flex max-w-[1200px] py-4 mx-auto p-4 bg-darkgrey'>
           <div>
             <p className='text-white font-bold'>ncflsy</p>
           </div>
           <div className='ms-auto flex'>
             
-            <ul className={`gap-8 ${isMenuOpen ? '' : 'hidden'} sm:flex border`}>
+            <ul className={`gap-8 ${isMenuOpen ? '' : 'hidden'} sm:flex`}>
                 <li>Beranda</li>
                 <li>UI Design</li>
                 <li>Project</li>
