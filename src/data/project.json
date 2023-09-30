@@ -1,9 +1,9 @@
 [
     {
-      "imageUrl": "./img/projek/simko.png",
+      "imageUrl": "./img/projek/siopet.png",
       "title": "SIOPET",
       "subtitle": "(Sistem Informasi Manajemen Petcare)",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, doloribus reiciendis dolores sequi tempore? Lorem ipsum dolor sit amet consectetur adipisic",
+      "description": "SIOPET merupakan sistem infomasi berbasis desktop yang memudahkan pet shop untuk melakukan manajemen barang, layanan, hingga laporan keuangan",
       "technologies": [
         { "name": "Java", "image": "./img/logo/java.png" },
         { "name": "Netbeans", "image": "./img/logo/netbeans.png" },
@@ -12,9 +12,9 @@
     },
     {
         "imageUrl": "./img/projek/simko.png",
-        "title": "SIOPET",
-        "subtitle": "(Sistem Informasi Manajemen Petcare)",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, doloribus reiciendis dolores sequi tempore? Lorem ipsum dolor sit amet consectetur adipisic",
+        "title": "SIMKO",
+        "subtitle": "(Sistem Informasi Manajemen Kost)",
+        "description": "SIOPET merupakan sistem infomasi berbasis desktop yang memudahkan para pengusaha kost untuk melakukan manajemen kost seperti manajemen penghuni, kamar, hingga keuangan. selain itu, terdapat fitur komplain yang dapat diajukan oleh penghuni kost",
         "technologies": [
           { "name": "Java", "image": "./img/logo/java.png" },
           { "name": "Netbeans", "image": "./img/logo/netbeans.png" },
@@ -22,14 +22,13 @@
         ]
       },
       {
-        "imageUrl": "./img/projek/simko.png",
-        "title": "SIOPET",
-        "subtitle": "(Sistem Informasi Manajemen Petcare)",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero, doloribus reiciendis dolores sequi tempore? Lorem ipsum dolor sit amet consectetur adipisic",
+        "imageUrl": "./img/projek/claria-hale.png",
+        "title": "Claria Hale",
+        "subtitle": "(Website Mochi Claria Hale)",
+        "description": "Claria hale merupakan website yang berisikan informasi mengenai produk umkm mochi asal Jember. Terdapat informasi mengenai penjelasan produk, harga produk, varian produk, cara order, hingga contact jika ingin melakukan order",
         "technologies": [
-          { "name": "Java", "image": "./img/logo/java.png" },
-          { "name": "Netbeans", "image": "./img/logo/netbeans.png" },
-          { "name": "MySQL", "image": "./img/logo/mysql.png" }
+          { "name": "Tailwind", "image": "./img/logo/tailwind.png" },
+          { "name": "JavaSript", "image": "./img/logo/js.png" }
         ]
       },
       {

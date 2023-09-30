@@ -15,7 +15,7 @@ const project = () => {
         <h1 class="text-red font-bold text-[30px] md:text-[40px] ms-4 md:ms-8 my-auto">Latest Project</h1>
         <div class="bg-red border border-red w-[60px] md:w-[200px] h-[2px] rounded-full ms-auto"></div>
     </div>
-    <section id='project' className='bg-black text-white pt-12 pb-[150px]'>
+    <section id='project' className='bg-black text-white pt-12'>
         <div className='flex justify-center md:justify-end md:pe-8 md:pb-16 py-8'>
             <SearchBar/>
         </div>
@@ -31,6 +31,9 @@ const project = () => {
                 />
             ))}
             
+        </div>
+        <div className='triangle w-full mt-[100px]'>
+            <img src="/img/triangle/triangle-darkgrey.svg" alt="gambar" width={1800}/>
         </div>
     </section>
     </>

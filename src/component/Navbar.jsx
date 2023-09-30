@@ -1,54 +1,55 @@
 import React, { useState } from 'react';
-import { FaBars } from 'react-icons/fa';
-import { FaWindowClose } from 'react-icons/fa';
-import { FaToggleOn } from 'react-icons/fa';
-import { FaToggleOff } from 'react-icons/fa';
+import { FaBars, FaWindowClose } from 'react-icons/fa';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isToggleOn, setIsToggleOn] = useState(true);
-  
-    const toggleMenu = () => {
-      setIsMenuOpen(!isMenuOpen);
-    };
-  
-    const toggleSwitch = () => {
-      setIsToggleOn(!isToggleOn);
-    };
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
   return (
     <>
       <header className='bg-darkgrey'>
         <nav className='flex max-w-[1200px] py-4 mx-auto p-4 bg-darkgrey'>
           <div>
-            <p className='text-white font-bold'>ncflsy</p>
+            <p className='text-white font-bold' onClick={scrollToTop}>
+              ncflsy
+            </p>
           </div>
           <div className='ms-auto flex'>
-            
-            <ul className={`gap-8 ${isMenuOpen ? '' : 'hidden'} sm:flex`}>
-                <li>Beranda</li>
-                <li>UI Design</li>
-                <li>Project</li>
-                <li>Pictures</li>
-                <li>Writing</li>
+            <ul className={`gap-8 ${isMenuOpen ? '' : 'hidden'} sm:flex text-white`}>
+              <li className='cursor-pointer hover:text-pink'>
+                <ScrollLink to='home' smooth={true} duration={500} >
+                  Beranda
+                </ScrollLink>
+              </li>
+              <li className='cursor-pointer hover:text-pink'>
+                <ScrollLink to='design' smooth={true} duration={500}>
+                  UI Design
+                </ScrollLink>
+              </li>
+              <li className='cursor-pointer hover:text-pink'>
+                <ScrollLink to='project' smooth={true} duration={500}>
+                  Project
+                </ScrollLink>
+              </li>
+              <li className='cursor-pointer hover:text-pink'>
+                <ScrollLink to='pictures' smooth={true} duration={500}>
+                  Pictures
+                </ScrollLink>
+              </li>
+              <li className='cursor-pointer hover:text-pink'>
+                <ScrollLink to='writing' smooth={true} duration={500}>
+                  Writing
+                </ScrollLink>
+              </li>
             </ul>
-            <div>
-              {isToggleOn ? (
-                <FaToggleOn
-                  className='ms-auto mx-4'
-                  size={25}
-                  onClick={toggleSwitch}
-                  color='grey'
-                />
-              ) : (
-                <FaToggleOff
-                  className='ms-auto mx-4'
-                  size={25}
-                  onClick={toggleSwitch}
-                  color='grey'
-                />
-              )}
-            </div>
           </div>
           <div className='flex sm:hidden'>
             <FaBars
@@ -71,4 +72,5 @@ const Navbar = () => {
     </>
   );
 };
+
 export default Navbar;

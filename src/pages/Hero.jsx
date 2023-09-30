@@ -2,13 +2,13 @@ import React from 'react'
 
 const hero = () => {
   return (
-    <section id='hero' className=' md:pt-[200px] pt-16 text-grey'
+    <section id='home' className=' md:pt-[200px] pt-16 text-grey'
     style={{
         backgroundImage: `url('/img/bg-medium.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}>
-        <div className='flex flex-col md:flex-row pb-[200px] px-4 justify-center'>
+        <div className='flex flex-col md:flex-row px-4 justify-center'>
             <div>
                     <iframe
                     src="https://embed.lottiefiles.com/animation/90921?controls=false"
@@ -25,6 +25,9 @@ const hero = () => {
                     <p className='text-[15px] md:text-[20px]'><b>Peace with the flow</b> is the key to life. We must know when to follow the flow, against the flow, and stay away from the flow.</p>
                     <button className='px-6 py-1 border border-red rounded-full mt-4'>Contact</button>
             </div>
+        </div>
+        <div className='triangle w-full mt-[100px]'>
+            <img src="/img/triangle/triangle-black.svg" alt="gambar" width={1800}/>
         </div>
     </section>
     
