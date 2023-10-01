@@ -23,7 +23,7 @@ const hero = () => {
                     <h3 className='text-[20px]'>Punten gaes,</h3>
                     <h1 className='text-[30px] md:text-[50px] font-bold text-red'>Im Nico Flassy</h1>
                     <p className='text-[15px] md:text-[20px]'><b>Peace with the flow</b> is the key to life. We must know when to follow the flow, against the flow, and stay away from the flow.</p>
-                    <button className='px-6 py-1 border border-red rounded-full mt-4'>Contact</button>
+                    <button className='px-6 py-1 border border-red rounded-full mt-4 hover:bg-red hover:text-white'>Contact</button>
             </div>
         </div>
         <div className='triangle w-full mt-[100px]'>

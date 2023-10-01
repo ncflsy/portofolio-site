@@ -1,5 +1,6 @@
 import React from 'react'
 import CardWritting from '../component/CardWritting'
+import DataProject from '../data/writing.json'
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
@@ -43,24 +44,11 @@ const Writing = () => {
             }
           }}
         >
-          <SwiperSlide>
-            <CardWritting/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <CardWritting/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <CardWritting/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <CardWritting/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <CardWritting/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <CardWritting/>
-          </SwiperSlide>
+          {DataProject.map((project, index)=>(
+            <SwiperSlide>
+              <CardWritting tittle={project.title} image={project.image}/>
+            </SwiperSlide>
+          ))}  
         </Swiper>
       </div>
     </section>

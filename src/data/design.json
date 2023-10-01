@@ -1,0 +1,34 @@
+[
+    {
+        "gambar1":"/img/design/clariahale/gambar1.png",
+        "gambar2":"/img/design/clariahale/gambar2.png",
+        "gambar3":"/img/design/clariahale/gambar3.png",
+        "gambar4":"/img/design/clariahale/gambar4.png",
+        "title": "Claria Hale",
+        "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi atque deserunt mollitia! Ea quis quam quod eveniet recusandae praesentium explicabo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, ea!"
+    },
+    {
+        "gambar1":"/img/design/goverment-site/gambar1.png",
+        "gambar2":"/img/design/goverment-site/gambar2.png",
+        "gambar3":"/img/design/goverment-site/gambar3.png",
+        "gambar4":"/img/design/goverment-site/gambar4.png",
+        "title": "Goverment",
+        "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi atque deserunt mollitia! Ea quis quam quod eveniet recusandae praesentium explicabo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, ea!"
+    },
+    {
+        "gambar1":"/img/design/simko/gambar1.png",
+        "gambar2":"/img/design/simko/gambar2.png",
+        "gambar3":"/img/design/simko/gambar3.png",
+        "gambar4":"/img/design/simko/gambar4.png",
+        "title": "SIMKO",
+        "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi atque deserunt mollitia! Ea quis quam quod eveniet recusandae praesentium explicabo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, ea!"
+    },
+    {
+        "gambar1":"/img/design/siopet/gambar1.png",
+        "gambar2":"/img/design/siopet/gambar2.png",
+        "gambar3":"/img/design/siopet/gambar3.png",
+        "gambar4":"/img/design/siopet/gambar4.png",
+        "title": "SIOPET",
+        "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi atque deserunt mollitia! Ea quis quam quod eveniet recusandae praesentium explicabo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, ea!"
+    }
+]

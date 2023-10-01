@@ -1,5 +1,6 @@
 import React from 'react'
 import CardDesign from '../component/CardDesign'
+import DataDesign from '../data/design.json'
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
@@ -30,15 +31,19 @@ const design = () => {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
-          <SwiperSlide>
-            <CardDesign/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <CardDesign/>
-          </SwiperSlide>
-          <SwiperSlide>
-            <CardDesign/>
-          </SwiperSlide>
+          {DataDesign.map((design, index) => (
+            <SwiperSlide>
+              <CardDesign 
+                key={index}
+                title={design.title} 
+                desc={design.desc} 
+                gambar1={design.gambar1}
+                gambar2={design.gambar2}
+                gambar3={design.gambar3}
+                gambar4={design.gambar4}
+                />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
       <div className='triangle w-full mt-[100px]'>
