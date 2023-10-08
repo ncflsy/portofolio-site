@@ -16,7 +16,6 @@ import "swiper/css/scrollbar";
 const Writing = () => {
   const navigate = useNavigate();
   const handleCardClick = (index) => {
-    // Navigasi ke halaman WrittingPages dan kirimkan data kartu yang diklik
     navigate(`/writting/${index}`);
   };
   return (

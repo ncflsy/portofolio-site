@@ -4,6 +4,7 @@ import Footer from "../section/Footer";
 import { FaHome } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 import dataWritting from "../data/writing.json";
+import { useNavigate } from "react-router-dom";
 
 const WrittingPages = () => {
   const { cardIndex } = useParams();
@@ -15,6 +16,10 @@ const WrittingPages = () => {
 
     scrollToTop();
   }, [cardIndex]);
+  const navigate = useNavigate();
+  const handleCardClick = () => {
+    navigate(`/`);
+  };
 
   const index = cardIndex;
   return (
@@ -27,7 +32,13 @@ const WrittingPages = () => {
         <div className="flex flex-col bg-darkgrey py-[30px] px-[40px] gap-12 max-w-[1000px] mx-auto">
           <span className="flex gap-2 items-center mb-[50px]">
             <FaHome />
-            <p>Home / Writting</p>
+            <p>
+              {" "}
+              <span onClick={handleCardClick} className="cursor-pointer">
+                Home
+              </span>{" "}
+              / Writting
+            </p>
           </span>
           <h1 className="font-bold text-3xl text-justify">{data.title}</h1>
           <img
