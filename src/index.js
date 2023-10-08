@@ -9,6 +9,9 @@ import Design from './pages/Design';
 import Pictures from './pages/Pictures';
 import Writing from './pages/Writing';
 import Footer from './pages/Footer';
+import Profile from './pages/Profile';
+import Skill from './pages/Skill';
+import Hobby from './pages/Hobby';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -19,6 +22,8 @@ root.render(
       {/* <NavbarRoutes/> */}
       <Navbar/>
       <Hero/>
+      <Profile/>
+      <Skill/>
       <Project />
       <Design />
       <Pictures />
