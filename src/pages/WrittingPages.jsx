@@ -1,15 +1,16 @@
-import React from "react";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Navbar from "../component/Navbar";
 import Footer from "../section/Footer";
 import { FaHome } from "react-icons/fa";
 
 const WrittingPages = () => {
   useEffect(() => {
-    const writtingPagesElement = document.getElementById("writting-pages");
-    if (writtingPagesElement) {
-      writtingPagesElement.scrollTop = 0;
-    }
+    const scrollToTop = () => {
+      window.scrollTo(0, 0); // Menggeser posisi scroll ke paling atas
+    };
+
+    // Memanggil fungsi scrollToTop ketika halaman dimuat
+    scrollToTop();
   }, []);
   return (
     <>
