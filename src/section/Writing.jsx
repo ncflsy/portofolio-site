@@ -1,4 +1,5 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import CardWritting from "../component/CardWritting";
 import DataProject from "../data/writing.json";
 import { useNavigate } from "react-router-dom";
@@ -14,8 +15,9 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 const Writing = () => {
   const navigate = useNavigate();
-  const handleCardClick = () => {
-    navigate("/writting");
+  const handleCardClick = (index) => {
+    // Navigasi ke halaman WrittingPages dan kirimkan data kartu yang diklik
+    navigate(`/writting/${index}`);
   };
   return (
     <>
@@ -54,11 +56,11 @@ const Writing = () => {
             }}
           >
             {DataProject.map((project, index) => (
-              <SwiperSlide>
+              <SwiperSlide key={index}>
                 <CardWritting
                   tittle={project.title}
                   image={project.image}
-                  onCardClick={handleCardClick}
+                  onCardClick={() => handleCardClick(index)}
                   style={{ cursor: "pointer" }}
                 />
               </SwiperSlide>

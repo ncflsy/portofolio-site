@@ -34,7 +34,7 @@ function App() {
             </>
           }
         />
-        <Route path="/writting" element={<WrittingPages />} />
+        <Route path="/writting/:cardIndex" element={<WrittingPages />} />
       </Routes>
     </Router>
   );
