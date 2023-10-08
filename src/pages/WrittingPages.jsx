@@ -27,7 +27,7 @@ const WrittingPages = () => {
       <Navbar />
       <section
         id="writting-pages"
-        className="bg-black w-full text-whiteText md:px-[150px] pt-[50px] pb-[50px]"
+        className="bg-black w-full text-white md:px-[150px] pt-[50px] pb-[50px]"
       >
         <div className="flex flex-col bg-darkgrey py-[30px] px-[40px] gap-12 max-w-[1000px] mx-auto">
           <div className="flex justify-between">

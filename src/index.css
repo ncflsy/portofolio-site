@@ -12,4 +12,11 @@
 .animate2 {
     @apply left-[40px] bottom-[-40px] transition-all duration-300;
 }
-  
+.animate3 {
+    @apply left-[-10px] top-[-10px] transition-all duration-1000;
+}
+.animate4 {
+    @apply left-[10px] bottom-[-10px] transition-all duration-1000;
+}
+
+

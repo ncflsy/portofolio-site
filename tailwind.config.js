@@ -10,7 +10,11 @@ module.exports = {
         grey : '#7E7F80',
         bordergrey: '#383B3E',
         pink: '#c15bbc',
-        whiteText: '#f6f7f9'
+        white: '#BFC0C0',
+        blue: '#16859D'
+      },
+      transitionDuration: {
+        '2000': '2000ms',
       }
     },
   },

@@ -5,15 +5,17 @@
         "gambar3":"/img/design/clariahale/gambar3.png",
         "gambar4":"/img/design/clariahale/gambar4.png",
         "title": "Claria Hale",
-        "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi atque deserunt mollitia! Ea quis quam quod eveniet recusandae praesentium explicabo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, ea!"
+        "link": "https://www.figma.com/file/lbKNKGuPBaMTQVx9soJv8l/website-mochi-(claria-hale)?type=design&node-id=0%3A1&mode=design&t=Wog9jRfxY6xIw2OA-1",
+        "desc": "Claria hale merupakan sebuah website yang berisikan informasi mengenai produk umkm mochi di Jember. Produk mochi ini dibuat oleh dua orang anak SMA di salah satu sekolah di Jember. Terdapat informasi mengenai deskripsi produk, harga produk, varian produk, tata cara order, hingga kontak penjual"
     },
     {
         "gambar1":"/img/design/goverment-site/gambar1.png",
         "gambar2":"/img/design/goverment-site/gambar2.png",
         "gambar3":"/img/design/goverment-site/gambar3.png",
         "gambar4":"/img/design/goverment-site/gambar4.png",
-        "title": "Goverment",
-        "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi atque deserunt mollitia! Ea quis quam quod eveniet recusandae praesentium explicabo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, ea!"
+        "title": "Goverment Site",
+        "link": "https://www.figma.com/file/VkGpGhocOozzNneM7Wfexa/Redesign-Web-Pemkab-Jember?type=design&node-id=65%3A1740&mode=design&t=ZBvvhDPTdAMtiVkl-1",
+        "desc": "Goverment Site adalah tampilan ui/ui yang merupakan platform berbasis website. Tampilan design ini merupakan hasil dari redesign tugas interaksi manusia dan komputer yang berfokus pada redesign secara user experience atau pengalaman dari pengguna (kenyamanan)"
     },
     {
         "gambar1":"/img/design/simko/gambar1.png",
@@ -21,6 +23,7 @@
         "gambar3":"/img/design/simko/gambar3.png",
         "gambar4":"/img/design/simko/gambar4.png",
         "title": "SIMKO",
+        "link": "https://www.figma.com/file/lbKNKGuPBaMTQVx9soJv8l/website-mochi-(claria-hale)?type=design&node-id=0%3A1&mode=design&t=Wog9jRfxY6xIw2OA-1",
         "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi atque deserunt mollitia! Ea quis quam quod eveniet recusandae praesentium explicabo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, ea!"
     },
     {
@@ -29,6 +32,7 @@
         "gambar3":"/img/design/siopet/gambar3.png",
         "gambar4":"/img/design/siopet/gambar4.png",
         "title": "SIOPET",
+        "link": "https://www.figma.com/file/jEPEKwJAWabgX6VrTPX2QT/UI-UX-SIOPET-(Hola-Petcare)?type=design&node-id=0%3A1&mode=design&t=b8Ypr1PDDsgZtDd3-1",
         "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi atque deserunt mollitia! Ea quis quam quod eveniet recusandae praesentium explicabo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, ea!"
     }
 ]
