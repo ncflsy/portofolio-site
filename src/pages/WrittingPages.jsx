@@ -30,16 +30,19 @@ const WrittingPages = () => {
         className="bg-black w-full text-whiteText md:px-[150px] pt-[50px] pb-[50px]"
       >
         <div className="flex flex-col bg-darkgrey py-[30px] px-[40px] gap-12 max-w-[1000px] mx-auto">
-          <span className="flex gap-2 items-center mb-[50px]">
-            <FaHome />
-            <p>
-              {" "}
-              <span onClick={handleCardClick} className="cursor-pointer">
-                Home
-              </span>{" "}
-              / Writting
-            </p>
-          </span>
+          <div className="flex justify-between">
+            <span className="flex gap-2 items-center mb-[50px]">
+              <FaHome />
+              <p>
+                {" "}
+                <span onClick={handleCardClick} className="cursor-pointer">
+                  Home
+                </span>{" "}
+                / Writting
+              </p>
+            </span>
+            <p>{data.date}</p>
+          </div>
           <h1 className="font-bold text-3xl text-justify">{data.title}</h1>
           <img
             src="/img/writting/ai.webp"
