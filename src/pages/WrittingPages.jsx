@@ -1,14 +1,22 @@
 import React from "react";
+import { useEffect } from "react";
 import Navbar from "../component/Navbar";
+import Footer from "../section/Footer";
 import { FaHome } from "react-icons/fa";
 
 const WrittingPages = () => {
+  useEffect(() => {
+    const writtingPagesElement = document.getElementById("writting-pages");
+    if (writtingPagesElement) {
+      writtingPagesElement.scrollTop = 0;
+    }
+  }, []);
   return (
     <>
       <Navbar />
       <section
         id="writting-pages"
-        className="bg-black w-full h-[2000px] text-whiteText md:px-[150px] pt-[50px]"
+        className="bg-black w-full text-whiteText md:px-[150px] pt-[50px] pb-[50px]"
       >
         <div className="flex flex-col bg-darkgrey py-[30px] px-[40px] gap-12 max-w-[1000px] mx-auto">
           <span className="flex gap-2 items-center mb-[50px]">
@@ -85,6 +93,7 @@ const WrittingPages = () => {
           </p>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
