@@ -9,7 +9,8 @@ module.exports = {
         darkgrey : '#14181E',
         grey : '#7E7F80',
         bordergrey: '#383B3E',
-        pink: '#c15bbc'
+        pink: '#c15bbc',
+        whiteText: '#f6f7f9'
       }
     },
   },
