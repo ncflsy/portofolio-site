@@ -45,8 +45,8 @@ const WrittingPages = () => {
           </div>
           <h1 className="font-bold text-3xl text-justify">{data.title}</h1>
           <img
-            src="/img/writting/ai.webp"
-            alt=""
+            src={data.imageContent}
+            alt="gambar"
             className="w-[800px] mx-auto"
           />
           <p className="text-justify">{data.paragraf}</p>
