@@ -1,4 +1,4 @@
-# Cara buka project ini
+# How To Show This Project
 1. cloning pada penyimpanan lokal komputer dengan "git clone https://github.com/ncflsy/portofolio-site.git"
 2. buka project dengan menggunakan text editor seperti vs code
 3. buka terminal -> new terminal
