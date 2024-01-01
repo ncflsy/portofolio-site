@@ -35,10 +35,11 @@
     "imageUrl": "./img/projek/j-kost.png",
     "title": "J-Kost",
     "subtitle": "(Jember Kost)",
-    "description": "Jember kost merupakan aplikasi berbasis website dan mobile yang diciptakan sebagai platform promosi kost-kost yang ada di Jember. J-Kost memungkinkan para pemilik kost untuk memudahkan dalam melakukan manajemen kost. Selain itu, J-Kost juga memudahkan para pencari kost dalam melakukan pencarian kost hingga melakukan pembayaran tiap bulannya",
+    "description": "Jember kost merupakan aplikasi berbasis website dan mobile yang diciptakan sebagai platform promosi kost yang ada di Jember. J-Kost memudahkan para pemilik kost dalam melakukan manajemen kost. Selain itu, J-Kost juga memudahkan mencari kost hingga melakukan pembayaran tiap bulannya",
     "technologies": [
-      { "name": "Tailwind", "image": "./img/logo/tailwind.png" },
-      { "name": "JavaSript", "image": "./img/logo/js.png" }
+      { "name": "CSS 3", "image": "./img/logo/css.png" },
+      { "name": "PHP", "image": "./img/logo/php.png" },
+      { "name": "JQuery", "image": "./img/logo/jquery.png" }
     ]
   },
   {
@@ -48,7 +49,7 @@
     "description": "Website ini merupakan website mengenai informasi seputar Balai Pengembangan Sumber Daya Manusia dan Penelitian Komunikasi dan Informatika Surabaya. Mulai dari deskripsi balai hingga kegiatan kegiatan yang ada di BPSDMP Kominfo Surabaya. ",
     "technologies": [
       { "name": "Tailwind", "image": "./img/logo/tailwind.png" },
-      { "name": "JavaSript", "image": "./img/logo/js.png" }
+      { "name": "PHP", "image": "./img/logo/php.png" }
     ]
   },
   {
