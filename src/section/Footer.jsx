@@ -2,6 +2,8 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -26,8 +28,12 @@ const Footer = () => {
           <FaGithub />
         </a>
       </div>
-      <div className="flex justify-center text-grey mt-4">
+      <div className="flex justify-center text-grey mt-4 flex-col items-center">
         <p>@ 2023 Copyright: Developed by Nico Flassy</p>
+        <p className="flex items-center gap-2">
+          Build with <SiTailwindcss /> x
+          <FaReact />
+        </p>
       </div>
     </footer>
   );

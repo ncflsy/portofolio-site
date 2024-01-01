@@ -96,7 +96,7 @@ const Profile = () => {
 
         <div className="triangle w-full mt-[100px]">
           <img
-            src="/img/triangle/triangle-darkGrey.svg"
+            src="/img/triangle/triangle-darkgrey.svg"
             alt="gambar"
             width={1800}
           />

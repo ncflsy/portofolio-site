@@ -1,36 +1,75 @@
 [
-    {
-      "imageUrl": "./img/projek/siopet.png",
-      "title": "SIOPET",
-      "subtitle": "(Sistem Informasi Manajemen Petcare)",
-      "description": "SIOPET merupakan sistem infomasi berbasis desktop yang memudahkan pet shop untuk melakukan manajemen barang, layanan, hingga laporan keuangan",
-      "technologies": [
-        { "name": "Java", "image": "./img/logo/java.png" },
-        { "name": "Netbeans", "image": "./img/logo/netbeans.png" },
-        { "name": "MySQL", "image": "./img/logo/mysql.png" }
-      ]
-    },
-    {
-        "imageUrl": "./img/projek/simko.png",
-        "title": "SIMKO",
-        "subtitle": "(Sistem Informasi Manajemen Kost)",
-        "description": "SIOPET merupakan sistem infomasi berbasis desktop yang memudahkan para pengusaha kost untuk melakukan manajemen kost seperti manajemen penghuni, kamar, hingga keuangan. selain itu, terdapat fitur komplain yang dapat diajukan oleh penghuni kost",
-        "technologies": [
-          { "name": "Java", "image": "./img/logo/java.png" },
-          { "name": "Netbeans", "image": "./img/logo/netbeans.png" },
-          { "name": "MySQL", "image": "./img/logo/mysql.png" }
-        ]
-      },
-      {
-        "imageUrl": "./img/projek/claria-hale.png",
-        "title": "Claria Hale",
-        "subtitle": "(Website Mochi Claria Hale)",
-        "description": "Claria hale merupakan website yang berisikan informasi mengenai produk umkm mochi asal Jember. Terdapat informasi mengenai penjelasan produk, harga produk, varian produk, cara order, hingga contact jika ingin melakukan order",
-        "technologies": [
-          { "name": "Tailwind", "image": "./img/logo/tailwind.png" },
-          { "name": "JavaSript", "image": "./img/logo/js.png" }
-        ]
-      }
-
+  {
+    "imageUrl": "./img/projek/siopet.png",
+    "title": "SIOPET",
+    "subtitle": "(Sistem Informasi Manajemen Petcare)",
+    "description": "SIOPET merupakan sistem infomasi berbasis desktop yang memudahkan pet shop untuk melakukan manajemen barang, layanan, hingga laporan keuangan",
+    "technologies": [
+      { "name": "Java", "image": "./img/logo/java.png" },
+      { "name": "Netbeans", "image": "./img/logo/netbeans.png" },
+      { "name": "MySQL", "image": "./img/logo/mysql.png" }
+    ]
+  },
+  {
+    "imageUrl": "./img/projek/simko.png",
+    "title": "SIMKO",
+    "subtitle": "(Sistem Informasi Manajemen Kost)",
+    "description": "SIOPET merupakan sistem infomasi berbasis desktop yang memudahkan para pengusaha kost untuk melakukan manajemen kost seperti manajemen penghuni, kamar, hingga keuangan. selain itu, terdapat fitur komplain yang dapat diajukan oleh penghuni kost",
+    "technologies": [
+      { "name": "Java", "image": "./img/logo/java.png" },
+      { "name": "Netbeans", "image": "./img/logo/netbeans.png" },
+      { "name": "MySQL", "image": "./img/logo/mysql.png" }
+    ]
+  },
+  {
+    "imageUrl": "./img/projek/claria-hale.png",
+    "title": "Claria Hale",
+    "subtitle": "(Website Mochi Claria Hale)",
+    "description": "Claria hale merupakan website yang berisikan informasi mengenai produk umkm mochi asal Jember. Terdapat informasi mengenai penjelasan produk, harga produk, varian produk, cara order, hingga contact jika ingin melakukan order",
+    "technologies": [
+      { "name": "Tailwind", "image": "./img/logo/tailwind.png" },
+      { "name": "JavaSript", "image": "./img/logo/js.png" }
+    ]
+  },
+  {
+    "imageUrl": "./img/projek/j-kost.png",
+    "title": "J-Kost",
+    "subtitle": "(Jember Kost)",
+    "description": "Jember kost merupakan aplikasi berbasis website dan mobile yang diciptakan sebagai platform promosi kost-kost yang ada di Jember. J-Kost memungkinkan para pemilik kost untuk memudahkan dalam melakukan manajemen kost. Selain itu, J-Kost juga memudahkan para pencari kost dalam melakukan pencarian kost hingga melakukan pembayaran tiap bulannya",
+    "technologies": [
+      { "name": "Tailwind", "image": "./img/logo/tailwind.png" },
+      { "name": "JavaSript", "image": "./img/logo/js.png" }
+    ]
+  },
+  {
+    "imageUrl": "./img/projek/portofolio-site.png",
+    "title": "BPSDMP Kominfo Surabaya",
+    "subtitle": "(Website BPSDMP Surabaya)",
+    "description": "Website ini merupakan website mengenai informasi seputar Balai Pengembangan Sumber Daya Manusia dan Penelitian Komunikasi dan Informatika Surabaya. Mulai dari deskripsi balai hingga kegiatan kegiatan yang ada di BPSDMP Kominfo Surabaya. ",
+    "technologies": [
+      { "name": "Tailwind", "image": "./img/logo/tailwind.png" },
+      { "name": "JavaSript", "image": "./img/logo/js.png" }
+    ]
+  },
+  {
+    "imageUrl": "./img/projek/medika-center.png",
+    "title": "Sistem Pendaftaran Clinic Medika Center",
+    "subtitle": "(Website Mochi Claria Hale)",
+    "description": "Claria hale merupakan website yang berisikan informasi mengenai produk umkm mochi asal Jember. Terdapat informasi mengenai penjelasan produk, harga produk, varian produk, cara order, hingga contact jika ingin melakukan order",
+    "technologies": [
+      { "name": "Java", "image": "./img/logo/java.png" },
+      { "name": "Netbeans", "image": "./img/logo/netbeans.png" },
+      { "name": "MySQL", "image": "./img/logo/mysql.png" }
+    ]
+  },
+  {
+    "imageUrl": "./img/projek/portofolio-site.png",
+    "title": "Portofolio Website",
+    "subtitle": "(Website Portofolio Nico)",
+    "description": "Claria hale merupakan website yang berisikan informasi mengenai produk umkm mochi asal Jember. Terdapat informasi mengenai penjelasan produk, harga produk, varian produk, cara order, hingga contact jika ingin melakukan order",
+    "technologies": [
+      { "name": "Tailwind", "image": "./img/logo/tailwind.png" },
+      { "name": "React", "image": "./img/logo/react.png" }
+    ]
+  }
 ]
-  
