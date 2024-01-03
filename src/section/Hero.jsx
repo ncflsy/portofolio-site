@@ -51,6 +51,7 @@ const hero = () => {
           </Link>
 
           <button
+            disabled
             className="px-6 py-1 m-2 rounded-full mt-4 bg-red text-white"
             onClick={downloadCV}
           >
